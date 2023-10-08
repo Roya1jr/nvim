@@ -8,7 +8,6 @@ require("mason-tool-installer").setup({
 		-- { "tool", auto_update = true },
 		-- you can pin a tool to a particular version
 		-- { "tool", version = "v1.47.0" },
-
 		"bash-language-server",
 		"emmet-language-server",
 		"gopls",
@@ -34,7 +33,6 @@ require("mason-tool-installer").setup({
 		"djlint",
 		"ruff",
 
-
 		--Formatter
 		"gofmt",
 		"goimports",
@@ -44,7 +42,7 @@ require("mason-tool-installer").setup({
 
 		--DAP
 		"delve",
-		"debugpy"
+		"debugpy",
 	},
 
 	-- if set to true this will check each tool for updates. If updates
